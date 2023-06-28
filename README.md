@@ -6,6 +6,14 @@ This is a worflow for the Mac software "Alfred", which allows you to quickly (wi
 
 # Installation
 
+* Download this git repo
+* From the root of the app, run `./ci/package.sh`
+* Ensure previous run passes
+* Double click `gdrive-alfred.alfredworkflow` in `bin` folder of this repo
+
+If you get the hourglass, something is most likely wrong. In this case, open Alfred preferences and activate debugging. Uninstall the workflow and reinstall it while debugging is on. You will see error messages that only show at startup.
+
+# Old Installation
 You need to purchase the full version of Alfred to use workflows. If you don't have it, you should get it. It's well worth it.
 
 Once you have Alfred full version (a.k.a. power pack):
